@@ -312,8 +312,6 @@ span {
     line-height: 90%;
 }
 
-
-
 /* основной контент*/
 main {
     width: 100%;
@@ -415,27 +413,6 @@ h2 {
     text-align: left;
     padding-left: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*подвал*/
 footer {
@@ -558,16 +535,12 @@ input:focus {
     }
 
     .description {
-    
-        
         padding: 0;
     }
 
     .description__child, .features, .phones {
         padding: 10px 0 10px 0;
     }
-    
-    
     
     .description__phones__reference {
         text-align: center;
