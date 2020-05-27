@@ -1,0 +1,50 @@
+@media only screen and (max-width: 960px){
+    .description, .description__phones, .description__transport {
+        display: block;
+    }
+
+    .description__text, .description__text2 {
+        margin: 40px 0;
+    }
+
+    .description__transport p {
+        padding: 40px 0 0 0;
+    }
+
+    .description__img img {
+        max-width: 100%;
+        box-shadow: none;
+        display: block;
+        margin: auto;
+    }
+
+    .description__phones {
+        display: block;
+        padding: 40px 0;
+    }
+    
+    
+    
+    .description__phones__reference {
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 40px;
+        border-right: none;
+    }
+    
+    .description__phones__embassy {
+        padding-top: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .phone hr {
+        display: inline;
+    }
+
+    h2 {
+        font-size: 20px;
+        padding: 0 0 20px 0;
+    }
+    
+}
