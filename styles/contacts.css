@@ -51,6 +51,12 @@
         padding-right: 0;
     }
 
+    .contacts__adress {
+        padding-left: 0;
+        max-width: 700px;
+        flex: 50%;
+    }
+
     .contacts__form .submit {
         font-size: 12px;
         width: 50%;
