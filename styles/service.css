@@ -1,0 +1,58 @@
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+}
+
+.block__img {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+}
+
+.block__description {
+    width: 100%;
+}
+
+.block__description__h2 {
+    padding-left: 40px;
+}
+
+.block__description__text {
+    max-width: 400px;
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+.block {
+    display: flex;
+    padding: 40px 0;
+}
+
+.block__description a {
+    text-decoration: none;
+    color: black;
+}
+
+.block__description a:hover {
+    color: #4DB5B5;
+}
+
+
+@media only screen and (max-width: 864px){
+    .blocks {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .block__description__text {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+
+    .block {
+        padding: 10px 0;
+    }
+
+}

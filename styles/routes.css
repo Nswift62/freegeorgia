@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(77, 181, 181, 0.295);
+}
+
+h2 {
+    font-family: PlayfairDisplay;
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0;
+    color: #4DB5B5;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocks__block {
+    background-color: white;
+    max-width: 650px;
+    margin: 0 10px;
+}
+
+.blocks__block__img {
+    max-width: 100%;
+}
+
+.blocks__block__h3, .blocks__block__p {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 640px){
+    .blocks {
+        display: block;
+    }
+
+    .blocks__block {
+        margin: 10px 0;
+    } 
+
+    .blocks__block__h3 {
+        text-align: center;
+    }
+
+}

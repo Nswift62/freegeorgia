@@ -120,16 +120,6 @@ ul.menu > li:hover > ul.submenu {
 }
 
 /* меню мобилка*/
-mobile-menu {
-    position: fixed;
-    display: none;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 16px;
-    height: 50px;
-    z-index: 9999999;
-    box-sizing: border-box;
-}
 
 .mobile-menu__btn {
     position: relative;
